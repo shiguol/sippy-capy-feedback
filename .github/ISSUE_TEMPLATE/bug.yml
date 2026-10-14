@@ -1,0 +1,44 @@
+name: 🐞 报告问题 / Bug report
+description: 扩展用起来不对劲？告诉我。/ Something isn't working? Let me know.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！**本页内容公开可见**，请不要填写邮箱、手机号或不想公开的网址。
+        Thanks! **This page is public.** Please don't include your email, phone number, or private URLs.
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 / What happened
+      description: 做了什么操作、期望什么、实际看到了什么。/ What you did, what you expected, and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤（可选）/ Steps to reproduce (optional)
+      placeholder: |
+        1. 打开设置页 / Open the options page
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: 扩展版本 / Extension version
+      description: 在 chrome://extensions里能看到。/ Find it at chrome://extensions.
+      placeholder: "1.0.1"
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器及版本 / Browser & version
+      placeholder: "Chrome 151 / Edge ..."
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统 / OS
+      placeholder: "Windows 11 / macOS 26 / ..."
+  - type: textarea
+    id: extra
+    attributes:
+      label: 截图或其他信息（可选）/ Screenshots or anything else (optional)
+      description: 可以直接把截图拖进来。/ You can drag screenshots in here.

@@ -1,0 +1,28 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前先 [搜一搜](https://github.com/shiguol/sippy-capy-feedback/discussions/categories/ideas)，已经有人提过的话点 👍 就好。**本页内容公开可见。**
+        Please [search existing ideas](https://github.com/shiguol/sippy-capy-feedback/discussions/categories/ideas) first and 👍 if it's already there. **This page is public.**
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想要什么功能 / What would you like
+      description: 用一两句话描述你想要的功能。/ Describe the feature in a sentence or two.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 你会在什么场景下用到 / When would you use it
+      description: 说说你遇到的情况，这比功能本身更能帮我想出好方案。/ Tell me about your situation. It helps me design a better solution.
+  - type: input
+    id: version
+    attributes:
+      label: 扩展版本（可选）/ Extension version (optional)
+      placeholder: "1.0.1"
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器（可选）/ Browser (optional)
+      placeholder: "Chrome / Edge ..."

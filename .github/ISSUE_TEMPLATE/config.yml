@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 功能建议 / Feature request
+    url: https://github.com/shiguol/sippy-capy-feedback/discussions/new?category=ideas
+    about: 想要新功能？请到 Discussions 提，大家可以投票。/ Want a new feature? Post it in Discussions so others can vote.
+  - name: 👀 看看别人提了什么 / Browse existing ideas
+    url: https://github.com/shiguol/sippy-capy-feedback/discussions/categories/ideas
+    about: 已经有人提过的话，点个 👍 就好。/ If it's already there, just give it a 👍.
