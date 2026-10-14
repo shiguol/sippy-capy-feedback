@@ -1,0 +1,28 @@
+name: 👋 卸载反馈 / Why I uninstalled
+description: 告诉卡皮哪里没做好，一两句话就够。/ Tell Capy what didn't work for you. A sentence or two is plenty.
+labels: ["uninstall"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢你曾经让卡皮陪你喝水，也谢谢你愿意花一分钟告诉我原因。这个扩展不收集任何使用数据，所以你的这几句话，是我知道它哪里没做好的唯一途径。每一条我都会认真看。
+        Thank you for letting Capy keep you company, and for taking a minute to tell me why you left. The extension collects no usage data, so a few words from you are the only way I can learn what went wrong. I read every one.
+
+        **本页内容公开可见**，请不要填写邮箱或个人健康信息。
+        **This page is public.** Please don't include your email or personal health details.
+  - type: checkboxes
+    id: reasons
+    attributes:
+      label: 主要原因（可多选）/ Main reasons (pick any)
+      options:
+        - label: 收不到提醒 / Reminders never showed up
+        - label: 提醒太频繁、太打扰 / Reminders were too frequent or annoying
+        - label: 缺少我需要的功能 / Missing a feature I need
+        - label: 设置太麻烦、不好上手 / Too hard to set up
+        - label: 找到了更合适的工具 / Found a better tool
+        - label: 只是试用，或暂时用不上了 / Just trying it out, or don't need it right now
+  - type: textarea
+    id: detail
+    attributes:
+      label: 能多说一点吗？（可选）/ Anything else? (optional)
+      description: 比如缺了什么功能，或者怎样改你会愿意回来。/ e.g. which feature was missing, or what would bring you back.
