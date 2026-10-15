@@ -2,9 +2,11 @@
 
 [English](#english) | 中文
 
-这里是浏览器扩展 **喝水卡皮（Sippy Capy）** 的反馈中心。扩展本身不开源，本仓库只用来收集大家的建议和问题。
+这里是 **喝水卡皮（Sippy Capy）** 浏览器扩展和 Android 应用的反馈中心。源码不开源，本仓库只用来收集大家的建议和问题。
 
 - Chrome 网上应用店：<https://chromewebstore.google.com/detail/hbmmhajpienaaalopaomplofkngjfgfj>
+- Android：Google Play 审核中（包名 `com.happymoon.sippycapy`）
+- [隐私政策](PRIVACY.md)
 
 ## 我想要一个新功能
 
@@ -28,9 +30,11 @@
 
 ## English
 
-This is the feedback hub for the browser extension **Sippy Capy: Drink Water Reminder**. The extension itself is not open source; this repository only collects suggestions and bug reports.
+This is the feedback hub for **Sippy Capy: Drink Water Reminder**, both the browser extension and the Android app. The source code is not open; this repository only collects suggestions and bug reports.
 
 - Chrome Web Store: <https://chromewebstore.google.com/detail/hbmmhajpienaaalopaomplofkngjfgfj>
+- Android: in review on Google Play (package `com.happymoon.sippycapy`)
+- [Privacy policy](PRIVACY.md)
 
 ### Request a feature
 
